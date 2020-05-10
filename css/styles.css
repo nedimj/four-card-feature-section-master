@@ -1,0 +1,151 @@
+/* general css */
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(229, 6%, 66%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+}
+
+h4 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+
+/* top section */
+
+.top-section {
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+.title {
+    font-weight: 200;
+}
+
+.subtitle {
+    font-weight: 600;
+}
+
+.description-text {
+    margin-top: 20px;
+    padding: 0 36%;
+}
+
+
+/* mid section */
+
+.box {
+    background-color: #fff;
+    border-radius: 4px;
+    border-top: 4px solid;
+    box-shadow: 0 8px 13px hsl(229, 6%, 85%);
+    margin: 20px 0 0 0;
+    padding: 27px 27px;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.box-alignment {
+    align-self: center;
+}
+
+.left-box {
+    border-color: hsl(180, 62%, 55%);
+}
+
+.center-box-1 {
+    border-color: hsl(0, 78%, 62%);
+}
+
+.center-box-2 {
+    border-color: hsl(34, 97%, 64%);
+}
+
+.right-box {
+    border-color: hsl(212, 86%, 64%);
+}
+
+
+/* footer */
+
+hr {
+    margin-top: 30px;
+}
+
+footer {
+    margin: 40px 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    h1 {
+        font-size: 3vw;
+    }
+    .description-text {
+        padding: 0 28%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 4vw;
+    }
+    .description-text {
+        padding: 0 23%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 6vw;
+    }
+    .description-text {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .left-box {
+        margin-top: 50px;
+    }
+    .box {
+        margin: 20px 10px 0 10px;
+        padding: 23px 23px;
+    }
+}
